@@ -204,7 +204,7 @@
       ${sec(`
         ${backLink()}
         <div style="margin-top:var(--space-8);">
-          ${sectionHeader('AI-Powered Websites', 'Fast, modern websites<br>that convert.', 'Built with AI acceleration for clinics, wellness centers, and enterprises — deployed in weeks, not months.')}
+          ${sectionHeader('AI-Powered Websites', 'Fast, modern websites<br>that convert.', 'Built with AI acceleration for any business — from local contractors to enterprise brands. Deployed in weeks, not months.')}
         </div>
       `)}
 
@@ -248,7 +248,7 @@
         <div class="pricing-grid">
           <div class="pricing-card">
             <div class="pricing-card__name">Launch</div>
-            <div class="pricing-card__price">$1,500</div>
+            <div class="pricing-card__price"><span style="font-size:12px;font-weight:500;color:var(--color-text-muted,#999);display:block;margin-bottom:2px;">Starting at</span>$1,500</div>
             <ul class="pricing-card__features">
               <li>5-page responsive site</li>
               <li>Mobile-optimized</li>
@@ -261,7 +261,7 @@
           <div class="pricing-card pricing-card--featured">
             <div class="pricing-card__badge">Most Popular</div>
             <div class="pricing-card__name">Pro</div>
-            <div class="pricing-card__price">$4,500</div>
+            <div class="pricing-card__price"><span style="font-size:12px;font-weight:500;color:var(--color-text-muted,#999);display:block;margin-bottom:2px;">Starting at</span>$4,500</div>
             <ul class="pricing-card__features">
               <li>Custom UI/UX design</li>
               <li>Booking system integration</li>
@@ -274,11 +274,11 @@
           </div>
           <div class="pricing-card">
             <div class="pricing-card__name">Enterprise</div>
-            <div class="pricing-card__price">$12,000</div>
+            <div class="pricing-card__price"><span style="font-size:12px;font-weight:500;color:var(--color-text-muted,#999);display:block;margin-bottom:2px;">Starting at</span>$12,000</div>
             <ul class="pricing-card__features">
-              <li>HIPAA-compliant infrastructure</li>
-              <li>Patient portal</li>
-              <li>RCM/billing integration</li>
+              <li>Scalable cloud infrastructure</li>
+              <li>Customer/client portals</li>
+              <li>Third-party integrations</li>
               <li>Custom API connections</li>
               <li>Dedicated project manager</li>
               <li>8-week delivery</li>
@@ -298,19 +298,19 @@
       ${sec(`
         ${backLink()}
         <div style="margin-top:var(--space-8);">
-          ${sectionHeader('HIPAA-Compliant Platforms', 'Secure platforms for<br>healthcare operations.', 'Patient portals, booking systems, and RCM integrations — all built to HIPAA standards.')}
+          ${sectionHeader('E-Commerce & Booking Platforms', 'Powerful platforms that<br>drive revenue.', 'Online stores, booking systems, and customer portals — built to convert and scale for any industry.')}
         </div>
       `)}
 
       ${sec(`
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--space-6);">
           <div class="feature-highlight">
-            <div class="feature-highlight__number">HIPAA</div>
-            <div class="feature-highlight__label">Compliant by design</div>
+            <div class="feature-highlight__number">Secure</div>
+            <div class="feature-highlight__label">Payment processing</div>
           </div>
           <div class="feature-highlight">
-            <div class="feature-highlight__number">256-bit</div>
-            <div class="feature-highlight__label">Encryption standard</div>
+            <div class="feature-highlight__number">24/7</div>
+            <div class="feature-highlight__label">Online booking</div>
           </div>
           <div class="feature-highlight">
             <div class="feature-highlight__number">99.9%</div>
@@ -320,15 +320,15 @@
       `, 'section--surface')}
 
       ${sec(`
-        ${sectionHeader('Platform Features', 'Everything your practice needs.')}
+        ${sectionHeader('Platform Features', 'Everything your business needs.')}
         <div class="deliverables-list">
-          ${['Secure patient portal', 'Online appointment booking', 'Encrypted messaging', 'RCM & billing integration', 'Insurance verification', 'Document management', 'Telehealth ready', 'HIPAA-compliant hosting', 'Audit trail logging', 'Role-based access control', 'Patient intake forms', 'Automated reminders'].map(item =>
+          ${['Online storefront & products', 'Appointment/booking system', 'Payment processing', 'Customer portals', 'Inventory management', 'Order tracking', 'CRM integration', 'Automated email & reminders', 'Coupon & discount engine', 'Analytics & reporting', 'Mobile-optimized checkout', 'Multi-location support'].map(item =>
             `<div class="deliverable-item"><span class="deliverable-item__check">✓</span><span class="deliverable-item__text">${item}</span></div>`
           ).join('')}
         </div>
       `)}
 
-      ${sec(ctaBlock('Need a HIPAA-compliant platform?', 'We\'ll scope your project and deliver a compliance-ready solution.'))}
+      ${sec(ctaBlock('Need an e-commerce or booking platform?', 'We\'ll scope your project and build a platform that drives revenue.'))}
     </div>`;
   }
 
@@ -338,27 +338,27 @@
       ${sec(`
         ${backLink()}
         <div style="margin-top:var(--space-8);">
-          ${sectionHeader('Compliance-Ready Infrastructure', 'SOC 2, HIPAA, HITECH-aligned<br>digital environments.', 'Enterprise-grade infrastructure designed for regulated industries — secure, scalable, and audit-ready.')}
+          ${sectionHeader('Scalable Infrastructure', 'Reliable hosting &amp;<br>cloud infrastructure.', 'Enterprise-grade infrastructure for any business — secure, scalable, and built to grow with you. Compliance options available when needed.')}
         </div>
       `)}
 
       ${sec(`
-        ${sectionHeader('Compliance Standards', 'Built to meet and exceed industry requirements.')}
+        ${sectionHeader('Infrastructure Capabilities', 'Built for performance and reliability.')}
         <div class="process-steps">
           <div class="process-step">
-            <div class="process-step__num" style="font-size:11px;">SOC2</div>
-            <div class="process-step__title">SOC 2 Alignment</div>
-            <div class="process-step__desc">Security, availability, processing integrity, confidentiality, and privacy controls.</div>
+            <div class="process-step__num" style="font-size:11px;">FAST</div>
+            <div class="process-step__title">Speed & Performance</div>
+            <div class="process-step__desc">Global CDN, edge caching, and optimized delivery for fast load times everywhere.</div>
           </div>
           <div class="process-step">
-            <div class="process-step__num" style="font-size:10px;">HIPAA</div>
-            <div class="process-step__title">HIPAA Compliance</div>
-            <div class="process-step__desc">Protected health information safeguards, encryption, access controls, and audit logging.</div>
+            <div class="process-step__num" style="font-size:11px;">SAFE</div>
+            <div class="process-step__title">Security & Protection</div>
+            <div class="process-step__desc">SSL encryption, firewalls, DDoS protection, and regular security updates.</div>
           </div>
           <div class="process-step">
-            <div class="process-step__num" style="font-size:9px;">HITECH</div>
-            <div class="process-step__title">HITECH Act Ready</div>
-            <div class="process-step__desc">Enhanced penalties provisions, breach notification, and meaningful use requirements.</div>
+            <div class="process-step__num" style="font-size:11px;">GROW</div>
+            <div class="process-step__title">Scale On Demand</div>
+            <div class="process-step__desc">Auto-scaling infrastructure that grows with your business — no downtime, no limits.</div>
           </div>
         </div>
       `, 'section--surface')}
@@ -366,13 +366,13 @@
       ${sec(`
         ${sectionHeader('Infrastructure Stack', 'Enterprise-grade tools and platforms.')}
         <div class="deliverables-list">
-          ${['Cloud hosting (AWS / Vercel / GCP)', 'SSL/TLS encryption everywhere', 'Web application firewall (WAF)', 'DDoS protection', 'Automated backups', 'CDN for global performance', 'CI/CD deployment pipelines', 'Container orchestration', 'Log aggregation & monitoring', 'Incident response planning'].map(item =>
+          ${['Cloud hosting (AWS / Vercel / GCP)', 'SSL/TLS encryption everywhere', 'Web application firewall (WAF)', 'DDoS protection', 'Automated backups', 'CDN for global performance', 'CI/CD deployment pipelines', 'Container orchestration', 'Log aggregation & monitoring', 'Uptime monitoring & alerts'].map(item =>
             `<div class="deliverable-item"><span class="deliverable-item__check">✓</span><span class="deliverable-item__text">${item}</span></div>`
           ).join('')}
         </div>
       `)}
 
-      ${sec(ctaBlock('Need compliance-ready infrastructure?', 'Let\'s architect a secure, scalable environment for your organization.'))}
+      ${sec(ctaBlock('Need reliable infrastructure?', 'Let\'s architect a secure, scalable environment for your business.'))}
     </div>`;
   }
 
@@ -382,7 +382,7 @@
       ${sec(`
         ${backLink()}
         <div style="margin-top:var(--space-8);">
-          ${sectionHeader('Data & Analytics Dashboards', 'Real-time intelligence<br>for your operations.', 'Custom dashboards that turn your data into actionable insights — from patient flow to revenue tracking.')}
+          ${sectionHeader('Data & Analytics Dashboards', 'Real-time intelligence<br>for your operations.', 'Custom dashboards that turn your data into actionable insights — from job tracking to revenue analytics.')}
         </div>
       `)}
 
@@ -406,7 +406,7 @@
       ${sec(`
         ${sectionHeader('Dashboard Capabilities', 'Everything you need to make data-driven decisions.')}
         <div class="deliverables-list">
-          ${['Revenue & financial tracking', 'Patient flow analytics', 'Appointment utilization', 'Marketing attribution', 'Staff performance metrics', 'Custom KPI widgets', 'Automated reporting', 'Data export (CSV/PDF)', 'API integrations', 'Mobile-responsive views'].map(item =>
+          ${['Revenue & financial tracking', 'Job & project tracking', 'Appointment utilization', 'Marketing attribution', 'Staff performance metrics', 'Custom KPI widgets', 'Automated reporting', 'Data export (CSV/PDF)', 'API integrations', 'Mobile-responsive views'].map(item =>
             `<div class="deliverable-item"><span class="deliverable-item__check">✓</span><span class="deliverable-item__text">${item}</span></div>`
           ).join('')}
         </div>
@@ -477,7 +477,7 @@
         <div class="case-study-hero__content">
           ${backLink('← Back to Portfolio')}
           <h1 style="font-family:var(--font-display);font-weight:800;font-size:var(--text-2xl);color:var(--color-text);margin-top:var(--space-6);margin-bottom:var(--space-4);">Real PT &amp; Wellness</h1>
-          <p style="font-size:var(--text-lg);color:var(--color-text-muted);max-width:600px;margin:0 auto;">Full-service physical therapy website with booking, patient resources, and HIPAA-ready infrastructure.</p>
+          <p style="font-size:var(--text-lg);color:var(--color-text-muted);max-width:600px;margin:0 auto;">Full-service physical therapy website with booking, patient resources, and secure infrastructure.</p>
           <div style="margin-top:var(--space-6);display:flex;gap:var(--space-4);justify-content:center;flex-wrap:wrap;">
             <a href="https://real-pt.com" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit Live Site <span class="arrow">→</span></a>
           </div>
