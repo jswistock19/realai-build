@@ -1,1 +1,15 @@
-(function(){function i(){var h=(window.__C||[]).join('');if(!h){setTimeout(i,30);return;}document.body.insertAdjacentHTML('afterbegin',h);if(window.lucide)lucide.createIcons();}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',i);}else{i();}})();
+(function(){
+  function inject(){
+    var chunks = window.__C || [];
+    if(!chunks.length){ setTimeout(inject, 30); return; }
+    var html = chunks.join('');
+    // Wipe any leftover script tags from body, insert assembled HTML + sub-page container
+    document.body.innerHTML = html + '<div id="sub-page-content" style="display:none;"></div>';
+    if(window.lucide) lucide.createIcons();
+  }
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', inject);
+  } else {
+    inject();
+  }
+})();
