@@ -1,0 +1,11 @@
+/* Portfolio layout hotfix: ensure overlay labels stay inside each card preview */
+
+.portfolio-card__preview {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Optional: make overlay non-interactive so it doesn't block hover/clicks */
+.portfolio-card__preview > div {
+  pointer-events: none;
+}
