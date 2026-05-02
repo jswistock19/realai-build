@@ -1,0 +1,32 @@
+
+/* ============================================
+   REAL AI Logo Override - Gold Brand Logo
+   ============================================ */
+
+.nav__logo > svg { display: none !important; }
+
+.nav__logo::before {
+  content: '';
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/c85ddaed-b60b-4e81-8524-b71394395420.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
+
+.footer__brand-logo > svg { display: none !important; }
+
+.footer__brand-logo::before {
+  content: '';
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-image: url('https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/c85ddaed-b60b-4e81-8524-b71394395420.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+}
