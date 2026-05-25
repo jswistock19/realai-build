@@ -19,7 +19,7 @@ window.__C=(window.__C||[]);window.__C.push(`        <div class="form-group">
       <div class="contact-info">
         <div class="contact-info__item">
           <div class="contact-info__icon"><i data-lucide="map-pin" style="width:20px;height:20px;"></i></div>
-          <div><div class="contact-info__label">Based In</div><div class="contact-info__value">Richmond, KY</div></div>
+          <div><div class="contact-info__label">Based In</div><div class="contact-info__value">Sherman Oaks, CA</div></div>
         </div>
         <div class="contact-info__item">
           <div class="contact-info__icon"><i data-lucide="clock" style="width:20px;height:20px;"></i></div>
