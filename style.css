@@ -1277,3 +1277,45 @@ a:hover { color: var(--color-gold-bright); }
   .newsletter { flex-direction: column; }
   .btn { width: 100%; justify-content: center; }
 }
+
+
+/* ============================================
+   PORTFOLIO IMAGE FIX — MOBILE
+   Ensures portfolio preview screenshots render
+   reliably on phones/tablets. The previews were
+   collapsing/not populating on small screens.
+   ============================================ */
+.card--portfolio .card__visual {
+  height: 220px;
+  min-height: 200px;
+}
+.card--portfolio .card__visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+@media (max-width: 768px) {
+  .card-grid--3 {
+    grid-template-columns: 1fr;
+  }
+  .card--portfolio .card__visual {
+    height: 200px;
+    min-height: 200px;
+  }
+  .card--portfolio .card__visual img {
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    opacity: 1 !important;
+  }
+}
+@media (max-width: 480px) {
+  .card--portfolio .card__visual {
+    height: 180px;
+    min-height: 180px;
+  }
+}
